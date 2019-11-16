@@ -1,0 +1,134 @@
+
+
+
+/*Styling The Navbar*/
+nav
+{
+	background-color: silver;
+}
+
+.navbar-nav .nav-item  .nav-link
+{
+	color: black;
+	font-weight: bold;
+}
+
+.sign-in
+{
+	margin-right: 5px;
+	border-radius: 15px;
+}
+
+.sign-up
+{
+	border-radius: 15px;
+}
+
+
+/*Styling the Carousel*/
+.carousel 
+{
+  position: relative;
+}
+ .carousel img
+ {
+ 	width: 100%;
+ 	height: 90vh;
+ }
+
+ .carousel-indicators 
+ {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 1020px;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+ .carousel-indicators span 
+ {
+   margin-left: 10px;
+   color: white;
+   background-color: green;
+   border-radius: 100%;
+   padding: 10px;
+   width: 100%;
+   height: 33px;
+ }
+
+ .carousel-indicators span:hover 
+ {
+   cursor: pointer;
+ }
+
+ .carousel-caption 
+ {
+  position: absolute;
+  right: 15%;
+  top: 30vh;
+  left: -13%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 10px 10px 16px transparent;
+}
+
+ .carousel-caption #header-top
+ {
+ 	margin-left: 356px;
+ 	width: 100px;
+ 	border-top: 6px solid white;
+ 	z-index: 15;
+ }
+
+ .carousel-caption h2 
+ {
+    margin-right: 420px;
+    z-index: 15;
+ }
+
+
+ #who-we-are_text
+ {
+ 	margin-left: 70px;
+ }
+
+ .nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus 
+{
+  color: #fff;
+  background-color: #002069;
+}
+
+.black
+{
+	color: black;
+}
+
+.black:hover
+{
+	color: silver;
+}
+
+#tab1
+{
+	border-bottom: 2px solid black;
+}
+
+ 
+
+
+
+
+
