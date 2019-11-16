@@ -121,10 +121,53 @@ nav
 	color: silver;
 }
 
-#tab1
-{
-	border-bottom: 2px solid black;
+/* Tabs*/
+section {
+    padding: 60px 0;
 }
+
+section .section-title 
+{
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+#tabs
+{
+	
+    color: black;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid green !important;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8vh;
+}
+
+#tabs .nav-tabs .nav-link 
+{
+    color: black;
+    font-size: 20px;
+    background: white;
+}
+
+#nav-tab
+{
+	border-bottom: 5px solid pink;
+}
+
+
+
+
 
  
 
