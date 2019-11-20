@@ -103,7 +103,9 @@ nav
  	margin-left: 70px;
  }
 
+
  .nav-pills > li.active > a,
+}
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus 
 {
@@ -136,7 +138,6 @@ section .section-title
 
 #tabs
 {
-	
     color: black;
 }
 #tabs h6.section-title{
@@ -150,20 +151,71 @@ section .section-title
     border-bottom: 4px solid green !important;
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 8vh;
+    padding-bottom: 4vh;
+}
+
+#tabs
+{
+	background: lightpink;
 }
 
 #tabs .nav-tabs .nav-link 
 {
     color: black;
     font-size: 20px;
-    background: white;
+    background: lightpink;
+    border-color: transparent;
 }
 
 #nav-tab
 {
-	border-bottom: 5px solid pink;
+	border-bottom: 5px solid rgb(250,163,250);
 }
+
+.btn-pink
+{
+	background-color: rgb(250,163,250);
+}
+
+#regSection
+{
+	background-color: grey;
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+}
+
+#regLists
+{
+	margin-top: 15vh;
+	border-left: 2px solid black;
+}
+
+#regLists li
+{
+	
+}
+
+/*Styling the Reg Form*/
+#sign-up-form
+{
+	background-color: white;
+	min-height: 78vh;
+}
+
+#nextButton
+{
+	float: right;
+}
+
+.nextDiv
+{
+	padding-top: 20vh;
+}
+
+.imageDiv
+{
+	border: 1px solid black;
+}
+
 
 
 
