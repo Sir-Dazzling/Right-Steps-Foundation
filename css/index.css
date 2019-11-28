@@ -58,7 +58,7 @@ footer
   list-style: none;
 }
 
- .carousel-indicators span 
+ .carousel-indicators .myCarousel-span 
  {
    margin-left: 10px;
    color: white;
@@ -68,6 +68,8 @@ footer
    width: 100%;
    height: 33px;
  }
+
+
 
  .carousel-indicators span:hover 
  {
@@ -250,14 +252,49 @@ section .section-title
 
 .numberText
 {
-	
 	margin-left: 20px;
 }
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 15px;
+    height: 5px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+
 
 .fa-twitter-square
 {
 	background-color: white;
 	color: blue;
+}
+
+.footer-social-icons
+{
+	margin-left: 40%;
+}
+
+#blog
+{
+	background-image: url("../images/power.jpg");
+}
+
+#blog2
+{
+	background-image: url("../images/power.jpg");
 }
 
 
